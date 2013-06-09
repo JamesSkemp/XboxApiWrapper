@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace XboxApiWrapper
 {
 	/// <summary>
-	/// Functionality to connect to the Xbox Leaders API on Mashape.
+	/// Functionality to connect to the XboxApi.com API on Mashape.
 	/// </summary>
 	public partial class XboxApi
 	{
