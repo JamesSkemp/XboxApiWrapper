@@ -18,7 +18,7 @@ namespace XboxApiWrapper
 		/// </summary>
 		private const string authorizationHeader = "X-Mashape-Authorization";
 		/// <summary>
-		/// Base URL of the API, reading for String.Format (passing format then method path).
+		/// Base URL of the API, ready for String.Format (passing format then method path).
 		/// </summary>
 		private const string apiUrl = "https://xboxapi.p.mashape.com/{0}/{1}";
 		#endregion
