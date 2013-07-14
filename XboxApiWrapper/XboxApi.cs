@@ -48,6 +48,8 @@ namespace XboxApiWrapper
 			this.Format = ResultFormat.Json;
 			this.Timeout = 15000;
 			this.Region = "en-us";
+
+			ConstructorExtensions();
 		}
 
 		/// <summary>
@@ -59,6 +61,11 @@ namespace XboxApiWrapper
 		{
 			this.ApiKey = apiKey;
 		}
+
+		/// <summary>
+		/// Additional defaults as required by any extensions to the main functionality. Called after initial defaults are set.
+		/// </summary>
+		partial void ConstructorExtensions();
 
 		/// <summary>
 		/// Validate a gamertag according to the rules that it must be 15 alpha-numeric characters and spaces.
