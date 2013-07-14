@@ -10,7 +10,7 @@
 		/// <returns>String, of whichever format, for the user.</returns>
 		public string GetAchievements(string gamertag, string gameId)
 		{
-			var methodPath = string.Format("friends/achievements/{0}/{1}", gameId, gamertag);
+			var methodPath = string.Format("achievements/{0}/{1}", gameId, gamertag);
 			return ApiRequest(methodPath);
 		}
 	}
