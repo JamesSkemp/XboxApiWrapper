@@ -49,6 +49,7 @@
     <Compile Include="HiddenAchievement.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PullUserData.cs" />
     <Compile Include="XboxApi.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
